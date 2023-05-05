@@ -1,0 +1,128 @@
+---
+name: Napping
+title: Analysis of Napping Data
+menuGroup: SEDA
+version: '1.0.0'
+jas: '1.2'
+
+options:
+  - name: data
+    type: Data
+
+  - name: actvars
+    title: (X,Y) Coordinates
+    type: Variables
+    suggested:
+      - continuous
+    permitted:
+      - numeric
+
+  - name: quantisup
+    title: Quantitative Supplementary Information
+    type: Variables
+    suggested:
+      - continuous
+    permitted:
+      - numeric
+
+  - name: qualisup
+    title: Categorical Supplementary Information
+    type: Variables
+    suggested:
+      - nominal
+      - ordinal
+    permitted:
+      - factor
+
+  - name: individus
+    title: Stimuli Labels
+    type: Variable
+    suggested:
+      - nominal
+    permitted:
+      - factor
+
+  - name: nFactors
+    title: Number of Factors
+    type: Integer
+    default: 3
+
+  - name: corvar
+    title: Correlations
+    type: Bool
+    default: false
+
+  - name: contribvar
+    title: Contributions
+    type: Bool
+    default: false
+
+  - name: cosvar
+    title: Cosine
+    type: Bool
+    default: false
+
+  - name: coordind
+    title: Coordinates
+    type: Bool
+    default: false
+
+  - name: contribind
+    title: Contributions
+    type: Bool
+    default: false
+
+  - name: cosind
+    title: Cosine
+    type: Bool
+    default: false
+
+  - name: proba
+    title: Significance threshold (%)
+    type: Number
+    default: 5
+
+  - name: abs
+    title: X-axis
+    type: Integer
+    default: 1
+
+  - name: ord
+    title: Y-axis
+    type: Integer
+    default: 2
+
+  - name: varact
+    title: Active variables
+    type: Bool
+    default: false
+
+  - name: varillus
+    title: Supplementary variables
+    type: Bool
+    default: false
+
+  - name: varactillus
+    title: 'Active and supplementary variables'
+    type: Bool
+    default: true
+
+  - name: limcosvar
+    title: Quality of representation (%)
+    type: Number
+    default: 0
+
+  - name: modact
+    title: Individuals
+    type: Bool
+    default: false
+
+  - name: modillus
+    title: Categorical supplementary variables
+    type: Bool
+    default: false
+
+  - name: modactillus
+    title: 'Individuals and categorical supplementary variables'
+    type: Bool
+    default: true
