@@ -1,0 +1,77 @@
+---
+name: QDABOOT
+title: Multivariate Representation of the Stimulus Space
+jrs: '1.1'
+
+items:
+  - name: plotind
+    title: Representation of the Stimuli
+    type: Image
+    width: 900
+    height: 600
+    renderFun: .plotIndaxe
+
+  - name: plotvar
+    title: Representation of the Sensory Attributes
+    type: Image
+    width: 600
+    height: 600
+    renderFun: .plotVaraxe
+
+  - name: eigenGr
+    title: Eigenvalue Decomposition
+    type: Group
+    visible: false
+    items:
+      - name: eigen_table
+        title: Eigenvalue and (Cumulative) Percentage of Variance
+        type: Table
+        columns:
+          - name: facto
+            title: ''
+            type: text
+          - name: eig
+            title: 'Eigenvalue'
+            type: number
+          - name: eig_pct
+            title: '% of variance'
+            type: number
+          - name: eig_pct_cum
+            title: 'Cumulative %'
+            type: number
+
+  - name: dimdesc
+    title: Automatic Description of the Axes
+    type: Preformatted
+
+  - name: plotspa
+    title: Representation of the Stimuli with Confidence Ellipses
+    type: Image
+    width: 900
+    height: 600
+    renderFun: .plotSpace
+
+  - name: hotGr
+    title: Hotelling Test
+    type: Group
+    items:
+      - name: hot_table
+        title: p-values Associated with the Hotelling Test
+        type: Table
+        columns: []
+
+  - name: plotpane
+    visible: (ind_gr_box)
+    title: Individual Variability Around Stimuli
+    type: Image
+    width: 900
+    height: 600
+    renderFun: .plotPane
+
+  - name: plotvaria
+    visible: (var_gr_box)
+    title: Variability of the Sensory Attributes
+    type: Image
+    width: 600
+    height: 600
+    renderFun: .plotvariavar
