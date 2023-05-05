@@ -1,0 +1,144 @@
+title: Analysis of Napping Data
+name: Napping
+jus: '3.0'
+stage: 0
+compilerMode: tame
+children:
+  - type: VariableSupplier
+    persistentItems: false
+    stretchFactor: 1
+    children:
+      - type: TargetLayoutBox
+        label: Stimuli Labels
+        children:
+          - type: VariablesListBox
+            name: individus
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: (X,Y) Coordinates
+        children:
+          - type: VariablesListBox
+            name: actvars
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Quantitative Supplementary Information
+        children:
+          - type: VariablesListBox
+            name: quantisup
+            isTarget: true
+      - type: TargetLayoutBox
+        label: Categorical Supplementary Information
+        children:
+          - type: VariablesListBox
+            name: qualisup
+            isTarget: true
+  - type: LayoutBox
+    margin: large
+    stretchFactor: 1
+    children:
+      - type: CollapseBox
+        label: Graphic Options
+        collapsed: true
+        children:
+          - type: Label
+            label: Components to Plot
+            children:
+              - type: Label
+                label: ''
+                cell:
+                  column: 0
+                  row: 0
+                stretchFactor: 1
+                children:
+                  - type: TextBox
+                    name: abs
+                    format: number
+              - type: Label
+                label: ''
+                cell:
+                  column: 1
+                  row: 0
+                stretchFactor: 1
+                children:
+                  - type: TextBox
+                    name: ord
+                    format: number
+          - type: Label
+            label: Individual Graphic Options
+            children:
+              - type: CheckBox
+                name: modactillus
+              - type: CheckBox
+                name: modact
+              - type: CheckBox
+                name: modillus
+          - type: Label
+            label: Variable Graphic Options
+            children:
+              - type: CheckBox
+                name: varactillus
+              - type: CheckBox
+                name: varact
+              - type: CheckBox
+                name: varillus
+              - type: TextBox
+                name: limcosvar
+                format: number
+  - type: LayoutBox
+    margin: large
+    stretchFactor: 1
+    children:
+      - type: CollapseBox
+        label: Numerical Indicators
+        collapsed: true
+        children:
+          - type: Label
+            label: Automatic Description of the Axes
+            children:
+              - type: Label
+                label: ''
+                cell:
+                  column: 0
+                  row: 0
+                stretchFactor: 1
+                children:
+                  - type: TextBox
+                    name: proba
+                    format: number
+              - type: Label
+                label: ''
+                cell:
+                  column: 1
+                  row: 0
+                stretchFactor: 1
+                children:
+                  - type: TextBox
+                    name: nFactors
+                    format: number
+          - type: Label
+            label: Individual Table Options
+            children:
+              - type: LayoutBox
+                margin: large
+                stretchFactor: 1
+                children:
+                  - type: CheckBox
+                    name: coordind
+                  - type: CheckBox
+                    name: contribind
+                  - type: CheckBox
+                    name: cosind
+          - type: Label
+            label: Variable Table Options
+            children:
+              - type: LayoutBox
+                margin: large
+                stretchFactor: 1
+                children:
+                  - type: CheckBox
+                    name: corvar
+                  - type: CheckBox
+                    name: contribvar
+                  - type: CheckBox
+                    name: cosvar

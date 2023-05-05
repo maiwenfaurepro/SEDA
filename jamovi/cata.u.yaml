@@ -1,0 +1,23 @@
+title: Analysis of CATA data
+name: cata
+jus: '3.0'
+stage: 0
+compilerMode: aggressive
+children:
+  - type: VariableSupplier
+    persistentItems: false
+    stretchFactor: 1
+    children:
+      - type: TargetLayoutBox
+        label: Stimulus Effect
+        children:
+          - type: VariablesListBox
+            name: cordo
+            maxItemCount: 1
+            isTarget: true
+      - type: TargetLayoutBox
+        label: CATA
+        children:
+          - type: VariablesListBox
+            name: group
+            isTarget: true
