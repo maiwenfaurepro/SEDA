@@ -1,0 +1,13 @@
+Package: SEDA
+Type: Package
+Title: Sensory Evaluation Data Analysis
+Version: 1.1.0
+Author: TL/FT
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Proposes univariate and multivariate analyses based on the SensoMineR package
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: jmvcore (>= 0.8.5), R6, FactoMineR, SensoMineR,ggplot2,
+        factoextra
+Built: R 4.1.2; ; 2023-05-05 14:09:23 UTC; windows

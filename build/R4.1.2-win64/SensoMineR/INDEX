@@ -1,0 +1,103 @@
+CA_JAR                  Make a correspondence analysis on the JAR data
+ConsensualWords         Consensual words for Sorting Task data
+ConsistencyIdeal        Sensory and Hedonic consistency of the ideal
+                        data
+IdMap                   Ideal Mapping (IdMap)
+IdMapConsumer           Ideal Mapping by categories (IdMapConsumer)
+JAR                     JAR
+MultiIdeal              Single vs. Multiple Ideal
+WilliamsDesign          Construct a Williams design
+WordCountAna            Word-Count based methods Analysis
+                        (WordCountAna)
+analyse_holos           Analyse Holos data
+ardi                    Automatic Research of DIvergences between
+                        scores
+averagetable            Computes a (products,descriptors) matrix
+barrow                  Barplot per row with respect to a set of
+                        quantitative variables
+boot                    Simulate virtual panels for several functions
+boxprod                 Boxplot per category with respect to a
+                        categorical variable and a set of quantitative
+                        variables
+cards                   Cards
+carto                   Preference Mapping Techniques
+cartoconsumer           Preference Mapping Techniques and segmentation
+                        of consumers
+chocolates              Chocolates data
+cocktail                Cocktail data
+coltable                Color the cells of a data frame according to 4
+                        threshold levels
+compo.cocktail          Composition of the cocktails data
+construct.axes          Coordinates of individuals and illustrative
+                        individuals for PCA or MFA
+cpa                     Consumers' Preferences Analysis
+cream_id                Cream Ideal Data
+cream_signa             Data description of the consumers who made the
+                        Ideal for the cream
+decat                   DEscription of CATegories
+fahst                   Factorial Approach for Hierarchical Sorting
+                        Task data
+fasnt                   Factorial Approach for Sorting Napping Task
+                        data
+fast                    Factorial Approach for Sorting Task data
+fcp                     Free choice profiling
+format_holos            Format Holos data
+graphinter              Graphical display of the interaction between
+                        two qualitative variables
+hedo.cocktail           Cocktails hedonic scores
+hedochoc                Chocolates hedonic scores
+histprod                Histogram for each descriptor
+hsortplot               Plot consumers' hierarchical sorting
+indscal                 Construct the Indscal model for Napping data
+                        type
+interact                Estimation of interaction coefficients
+magicsort               Returns a sorted data matrix
+nappeplot               Plot panelists' tableclothe
+nappesortplot           Plot consumers' sorted tablecloth
+napping                 Napping data
+napping.don             An example of Napping data
+napping.words           An example of "illustrative" variables to
+                        enhance results from Napping data
+optimaldesign           Construction of an optimal design
+paneliperf              Panelists' performance according to their
+                        capabilities to dicriminate between products
+panellipse              Confidence ellipses around products based on
+                        panelists descriptions
+panellipse.session      Repetability of panelists descriptions studied
+                        by confidence ellipses around products per
+                        session
+panelmatch              Confidence ellipses around products based on
+                        panel descriptions
+panelperf               Panel's performance according to its
+                        capabilities to dicriminate between products
+perfume                 Perfume
+perfume_fcp             Perfume data obtained by free choice profiling
+perfume_ideal           Perfume Ideal Data
+plot.IdMap              Plot for the Ideal Mapping
+plot.JAR                Make penalty graph
+plot.WordCountAna       Word-Count based methods Analysis
+                        (WordCountAna) graphs
+plot.fahst              Make Factorial Approach for Hierarchical
+                        Sorting Task data (FAHST) graphs
+plot.fasnt              Make Factorial Approach for Sorting Napping
+                        Task data (FASNT) graphs
+plot.fast               Make Factorial Approach for Sorting Task data
+                        (FAST) graphs
+plotpanelist            Plotpanelist
+pmfa                    Procrustean Multiple Factor Analysis (PMFA)
+print.fahst             Print Factorial Approach for Hierarchical
+                        Sorting Task data (FAHST) results
+print.fasnt             Print Factorial Approach for Sorting Napping
+                        Task data (FASNT) results
+print.fast              Print Factorial Approach for Sorting Task data
+                        (FAST) results
+scalebypanelist         Scale by panelist
+search.desc             Search for discriminating descriptors
+senso.cocktail          Sensory data for 16 cocktails
+sensochoc               Sensory data for 6 chocolates
+sensopanels             Sensory profiles given by 7 panels
+smoothies               Smoothies
+triangle.design         Construct a design for triangle tests
+triangle.pair.test      Make a Triangle test for two products
+triangle.test           Make a Triangle test for a set of products
+videos                  Videos data obtained with Holos
